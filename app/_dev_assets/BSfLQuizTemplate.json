@@ -77,6 +77,18 @@
                                 },
                                 "components": [
                                     {
+                                        "type": "npStopWatch",
+                                        "data": {
+                                            "autoStart": true,
+                                            "hideNavigation": true,
+                                            "report": true,
+                                            "class": "",
+                                            "content": ""
+                                        },
+                                        "components": [
+                                        ]
+                                    },
+                                    {
                                         "type": "npPage",
                                         "data": {
                                         },

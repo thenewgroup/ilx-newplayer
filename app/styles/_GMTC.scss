@@ -660,6 +660,31 @@ input{
     stroke-width: 3;
 }
 /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*New Player Stop Watch classes*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.np-stopwatch{
+    float: right;
+}
+.stopwatch-icon{
+    width: 30px;
+    float:left;
+}
+.np-stopwatch-counter{
+    color: $brand-primary;
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+#stopwatch-shape path{
+    fill: $brand-primary;
+}
+#stopwatch-second-hand path{
+    fill: $brand-primary;
+}
+.quarter-mark circle{
+    fill: $brand-primary;
+}
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /*New Player Matching Game classes*/
 /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /*.matching-game-row{

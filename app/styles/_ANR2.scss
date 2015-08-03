@@ -653,12 +653,19 @@ input{
     float:left;
 }
 .np-stopwatch-counter{
+    color: $brand-primary-light;
     float: left;
     padding-left: 10px;
     padding-top: 5px;
 }
-#stopwatch-second-hand{
-
+#stopwatch-shape path{
+    fill: $brand-primary-light;
+}
+#stopwatch-second-hand path{
+    fill: $brand-primary;
+}
+.quarter-mark circle{
+    fill: $brand-primary-light;
 }
 /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /*New Player Matching Game classes*/

@@ -100,6 +100,14 @@
     line-height: 1.35;
     margin-bottom: $line-height-computed;
 }
+ol, ul{
+    font-family: $font-family-sans-serif;
+    color: $brand-primary;
+    font-size: $font-size-h6;
+    letter-spacing: 2px;
+    line-height: 1.35;
+    margin-bottom: $line-height-computed;
+}
 @media (max-width: $screen-md) {
     .body-copy{
         font-size: $font-size-base;
@@ -160,12 +168,6 @@ small{
 /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /*New Player button classes*/
 /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
-.btn span{ 
-    font-family: $font-family-sans-serif;
-    color: $brand-primary-light;
-    text-transform: uppercase;
-    letter-spacing: 0.25em;
-}
 .btn{ 
     position: relative;
     border-color: $brand-primary-light;
@@ -699,6 +701,31 @@ input{
     stroke: #125AA0;
     fill: $brand-primary-light;
     stroke-width: 6;
+}
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*New Player Stop Watch classes*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.np-stopwatch{
+  float: right;
+}
+.stopwatch-icon{
+    width: 30px;
+    float:left;
+}
+.np-stopwatch-counter{
+    color: $brand-primary-light;
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+#stopwatch-shape path{
+    fill: $brand-primary-light;
+}
+#stopwatch-second-hand path{
+    fill: $brand-primary;
+}
+.quarter-mark circle{
+    fill: $brand-primary-light;
 }
 /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /*New Player Matching Game classes*/

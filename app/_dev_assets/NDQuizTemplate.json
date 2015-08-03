@@ -2,7 +2,7 @@
     {
         "type": "npFeature",
         "data": {
-            "id": "reNutriv",
+            "id": "ND",
             "class": "",
             "version": "0.0.1",
             "timestamp": "2015-Apr-Tue_05:04:50"
@@ -14,7 +14,7 @@
                     "id": "content_en",
                     "language": "en",
                     "title": "Learning-Content-Re-nutriv-3.7-Ultimate-Diamond-Quiz",
-                    "description": "This manifest creates a Story or Learning Object content object."
+                    "description": "This manifest creates a Story or Learning Object content object . "
                 },
                 "components": [
                     {
@@ -94,97 +94,15 @@
                                         },
                                         "components": [
                                             {
-                                                "type": "npAsQuestion",
-                                                "data": {
-                                                    "required": true,
-                                                    "forced": false,
-                                                    "type": "checkbox",
-                                                    "difficulty": "",
-                                                    "content": "Which of the following instantly provides skin with natural radiance?",
-                                                    "questionLabel": "question label",
-                                                    "answerLabel": "answer label",
-                                                    "submitLabel": "submit label",
-                                                    "buttons": {
-                                                        "submit": "Submit",
-                                                        "next": "Next"
-                                                    },
-                                                    "feedback": {
-                                                        "immediate": false,
-                                                        "correct": "That's it! South Sea Pearls and illuminating optics are featured in all Re-Nutriv collections, instantly providing skin with natural radiance.",
-                                                        "incorrect": "That's not right. South Sea Pearls and illuminating optics are featured in all Re-Nutriv collections, instantly providing skin with natural radiance."
-                                                    }
-                                                },
-                                                "components": [
-                                                    {
-                                                        "type": "npAsAnswer",
-                                                        "data": {
-                                                            "label": "South Sea Pearls and illuminating optics",
-                                                            "correct": true,
-                                                            "feedback": {
-                                                                "correct": "That's it! South Sea Pearls and illuminating optics are featured in all Re-Nutriv collections, instantly providing skin with natural radiance."
-                                                            }
-                                                        }
-                                                    },
-                                                    {
-                                                        "type": "npAsAnswer",
-                                                        "data": {
-                                                            "label": "Black Sea Optical Pearls",
-                                                            "correct": false,
-                                                            "feedback": {
-                                                                "incorrect": "That's not right. South Sea Pearls and illuminating optics are featured in all Re-Nutriv collections, instantly providing skin with natural radiance."
-                                                            }
-                                                        }
-                                                    },
-                                                    {
-                                                        "type": "npAsAnswer",
-                                                        "data": {
-                                                            "label": "White South American Pearls",
-                                                            "correct": false,
-                                                            "feedback": {
-                                                                "incorrect": "That's not right. South Sea Pearls and illuminating optics are featured in all Re-Nutriv collections, instantly providing skin with natural radiance."
-                                                            }
-                                                        }
-                                                    },
-                                                    {
-                                                        "type": "npAsAnswer",
-                                                        "data": {
-                                                            "label": "Black Sea Pearl Drops",
-                                                            "correct": false,
-                                                            "feedback": {
-                                                                "incorrect": "That's not right. South Sea Pearls and illuminating optics are featured in all Re-Nutriv collections, instantly providing skin with natural radiance."
-                                                            }
-                                                        }
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "type": "npButton",
-                                                "data": {
-                                                    "link": "",
-                                                    "type": "btn-next",
-                                                    "class": "",
-                                                    "content": "Next"
-                                                },
-                                                "components": [
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "type": "npPage",
-                                        "data": {
-                                            "title": "<p>title Read each question, select the best choice and then select <strong>Submit.</strong></p>",
-                                            "subTitle": "<p>subTitle Read each question, select the best choice and then select <strong>Submit.</strong></p>",
-                                            "instructional": "<p>instructional Read each question, select the best choice and then select <strong>Submit.</strong></p>"
-                                        },
-                                        "components": [
-                                            {
                                                 "type": "npDragAndDropSelect",
                                                 "data": {
                                                     "positiveFeedback": "<p>That's it!</p><p>this is the content1!this is the content1! this is the content1!this is the content1! this is the content1! this is the content1! this is the content1!this is the content1! this is the content1!</p><p>this is the content1!this is the content1! this is the content1!this is the content1! this is the content1! this is the content1! this is the content1!this is the content1! this is the content1!</p>",
                                                     "negativeFeedback": "<p>ehh?!?!</p>",
                                                     "image": "",
                                                     "required": true,
+                                                    "questionLabel": "question label",
+                                                    "answerLabel": "answer label",
+                                                    "submitLabel": "submit",
                                                     "req": [
                                                         "mediaelement/GreenSock/TweenMax.min.js",
                                                         "mediaelement/GreenSock/utils/Draggable.min.js",
@@ -258,7 +176,7 @@
                                                     "content": "Which of the following instantly provides skin with natural radiance?",
                                                     "questionLabel": "question label",
                                                     "answerLabel": "answer label",
-                                                    "submitLabel": "submit label",
+                                                    "submitLabel": "submit",
                                                     "buttons": {
                                                         "submit": "Submit",
                                                         "next": "Next"
@@ -338,8 +256,8 @@
                                                     "type": "checkbox",
                                                     "difficulty": "",
                                                     "content": "Which of the following includes an exclusive luxurious gold spatula?",
-                                                    "questionLabel": "question:",
-                                                    "answerLabel": "answer:",
+                                                    "questionLabel": "question label",
+                                                    "answerLabel": "answer label",
                                                     "submitLabel": "submit",
                                                     "buttons": {
                                                         "submit": "Submit",
@@ -420,8 +338,8 @@
                                                     "type": "checkbox",
                                                     "difficulty": "",
                                                     "content": "The Dual Infusion and Transformative Energy Creme both feature beautiful herbaceous floral scents, including fresh green and citrus notes of lemon and grapefruit, along with which of the following?",
-                                                    "questionLabel": "question:",
-                                                    "answerLabel": "answer:",
+                                                    "questionLabel": "question label",
+                                                    "answerLabel": "answer label",
                                                     "submitLabel": "submit",
                                                     "buttons": {
                                                         "submit": "Submit",
@@ -502,6 +420,7 @@
                                                     "difficulty": 1,
                                                     "content": " This is the 'What number am I thinking of?' trivia!",
                                                     "feedback": {
+                                                        "immediate": true,
                                                         "correct": "Hey, that's right!",
                                                         "incorrect": "No! ... What are you thinking!?"
                                                     }
@@ -516,11 +435,10 @@
                                                             "type": "checkbox",
                                                             "difficulty": 1,
                                                             "content": "What number am I thinking of? QUESTION 1",
-                                                            "questionLabel": "question:",
-                                                            "answerLabel": "answer:",
+                                                            "questionLabel": "question label",
+                                                            "answerLabel": "answer label",
                                                             "submitLabel": "submit",
                                                             "feedback": {
-                                                                "immediate": true,
                                                                 "correct": "Hey, that's right!",
                                                                 "incorrect": "No! ... What are you thinking!?"
                                                             }
@@ -569,6 +487,17 @@
                                                         ]
                                                     }
                                                 ]
+                                            },
+                                            {
+                                                "type": "npButton",
+                                                "data": {
+                                                    "link": "",
+                                                    "type": "btn-next",
+                                                    "class": "",
+                                                    "content": "Next"
+                                                },
+                                                "components": [
+                                                ]
                                             }
                                         ]
                                     },
@@ -577,7 +506,7 @@
                                         "data": {
                                             "id": "How Much Do You Know About Re-Nutriv Summary",
                                             "parentId": "QuizIntro",
-                                            "title": "How Much Do You Know About Re-Nutriv Summary",
+                                            "title": "",
                                             "inMenu": false,
                                             "required": false
                                         },
